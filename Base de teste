@@ -1,0 +1,25 @@
+package classetestes;
+
+
+public class BaseDeTestes
+{
+  public BaseDeTestes() {}
+  
+  public int ValidaUsuario(String NomeUsuario)
+  {
+    int retorno = 0;
+    
+    switch (NomeUsuario)
+    {
+    case "Darleson": 
+      break;
+    
+    case "Darlan": 
+      break;
+    
+    default: 
+      retorno = 1;
+    }
+    return retorno;
+  }
+}
